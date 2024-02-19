@@ -1,0 +1,96 @@
+.desktopChild {
+    position: absolute;
+    top: 26px;
+    left: -299px;
+    background-color: #d9d9d9;
+    width: 259px;
+    height: 848px;
+    display: none;
+  }
+  .frameBase {
+    top: -35px;
+    left: 175px;
+    width: 350px;
+    height: 350px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    z-index: 1;
+  }
+  .frameBase,
+  .inputFields,
+  .inputFields1,
+  .passwordField,
+  .rectangle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(140.79deg, #fa773e, rgba(123, 80, 194, 0) 88%);
+  }
+  .rectangle {
+    top: 318px;
+    left: 470.8px;
+    width: 450px;
+    height: 450px;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+  }
+  .inputFields,
+  .inputFields1,
+  .passwordField {
+    width: 350px;
+    height: 350px;
+  }
+  .inputFields {
+    top: 411.49px;
+    left: 247px;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+  .inputFields1,
+  .passwordField {
+    top: 795px;
+    left: 943px;
+  }
+  .passwordField {
+    top: 345.4px;
+    left: 394.5px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-120deg);
+    transform-origin: 0 0;
+  }
+  .ellipsePair {
+    width: 1294px;
+    height: 1145px;
+    position: absolute;
+    margin: 0 !important;
+    right: -417px;
+    bottom: -361px;
+  }
+  .childFrameset,
+  .frameParent {
+    display: flex;
+    flex-direction: column;
+  }
+  .childFrameset {
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .frameParent {
+    position: absolute;
+    top: 26px;
+    left: 370px;
+    width: 700px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 186px 0 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background-color: #1c1d21;
+    overflow: hidden;
+  }

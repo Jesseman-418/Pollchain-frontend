@@ -1,0 +1,45 @@
+.welcomeFrameChild {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    border-radius: var(--br-xl);
+    display: none;
+}
+
+.welcome {
+    margin: 0;
+    height: 78px;
+    font-size: var(--font-size-45xl);
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+}
+
+.signInWith,
+.welcome {
+    position: relative;
+    z-index: 2;
+}
+
+.frameSignInWithMetamask,
+.welcomeFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-23xl);
+}
+
+.welcomeFrame {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background: linear-gradient(117.35deg,
+            rgba(49, 49, 49, 0.82),
+            rgba(189, 189, 189, 0));
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: var(--padding-22xl) var(--padding-20xl) var(--padding-74xl);
+    gap: 32px 0;
+    z-index: 1;
+    text-align: left;
+}
